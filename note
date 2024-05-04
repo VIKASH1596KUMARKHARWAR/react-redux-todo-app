@@ -1,0 +1,16 @@
+npm install react-scripts@latest
+            install this command to final folder 
+
+and 
+     npm install express to api and 
+
+after that start them.
+
+
+-=================================================-
+
+In this TOdo list app i have made fully functionality todo app,in which we can add new task ,delete the task and also there are some predefined task.
+
+Also,in this TOdo list app i have made the feature those task complete whaich are completed canme mark tick w/o  them particular, and also it will be ight green in color while marked tick.
+
+there will  also be the track of completed task.
