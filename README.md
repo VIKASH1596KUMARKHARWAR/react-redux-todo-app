@@ -1,45 +1,60 @@
-﻿# Todo-react-redux
-React-Redux Assignment: Building a Task Management Dashboard
-Objective:
-The goal of this assignment is to evaluate candidates' proficiency in React, Redux, JavaScript, and UI/UX design principles. They will be required to build a simple task management dashboard where users can manage tasks (add, edit, delete, and mark as completed) and filter tasks based on their status.
-Assignment Overview:
-Title: Task Management Dashboard
-Requirements:
-Task Functionality:
-Add Task: Allow users to add tasks with a title, description, and due date.
-Edit Task: Users should be able to edit task details.
-Delete Task: Users should be able to delete a task.
-Mark as Completed: Users should be able to mark tasks as completed.
-Task Filters:
-Provide filters to show tasks by:
-All Tasks
-Completed Tasks
-Pending Tasks
-Overdue Tasks (tasks with a due date before the current date).
-Redux Integration:
-Use Redux for state management.
-Store the list of tasks in the Redux store.
-Create actions and reducers to handle task CRUD operations and filtering.
-UI/UX Design:
-Use a modern UI library (like Material-UI, Ant Design, or styled-components) or design a custom UI.
-Create a responsive design that works well on desktop and mobile screens.
-The dashboard should have a clean and user-friendly layout.
-Additional Features (Optional for Extra Credit):
-Add search functionality to find tasks by title.
-Implement drag-and-drop to reorder tasks.
-Add a confirmation modal before deleting a task.
+# Task Management Dashboard/Todo Management Dashboard 
 
+## Objective
 
-Technical Specifications:
-Technology Stack:
-React
-Redux (with @reduxjs/toolkit preferred)
-JavaScript (ES6+ features)
-CSS or SCSS (optional: CSS-in-JS libraries like styled-components)
-Routing:
-Use React Router to create a basic route structure:
-/tasks - Task Dashboard
-/tasks/:id - Task Details Page (optional)
-State Management:
-Use Redux Toolkit to handle state and actions.
-Use middleware (e.g., Redux Thunk) if needed for asynchronous operations.
+This project evaluates proficiency in **React**, **Redux**, **JavaScript**, and **UI/UX design** principles by building a task management dashboard. Users can manage tasks with functionality like adding, editing, deleting, marking as completed, and filtering tasks based on their status.
+
+## Features
+
+- **Add Task**: Add tasks with title, description, and due date.
+- **Edit Task**: Edit the details of an existing task.
+- **Delete Task**: Delete a task from the list.
+- **Mark as Completed**: Mark a task as completed.
+- **Task Filters**: Filter tasks based on:
+  - **All Tasks**
+  - **Completed Tasks**
+  - **Pending Tasks**
+  - **Overdue Tasks**
+- **Search Functionality**: Search tasks by title.
+- **Drag-and-Drop**: Reorder tasks (Optional for extra credit).
+- **Confirmation Modal**: Add a modal confirmation before deleting a task (Optional for extra credit).
+
+## Technologies Used
+
+- **React**: For building the user interface and handling state.
+- **Redux**: For managing global state and task data.
+- **Redux Toolkit**: Simplifies Redux usage and integrates best practices.
+- **Material-UI**: For responsive and modern UI components.
+- **React Router**: To manage routing between pages.
+- **JavaScript (ES6+)**: For implementing core logic.
+- **CSS** (or **SCSS**): For styling the application (optional: CSS-in-JS libraries like styled-components).
+
+## Installation
+
+Follow these steps to set up the project on your local machine:
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/your-username/task-management-dashboard.git
+    cd task-management-dashboard
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Run the application:**
+
+    ```bash
+    npm start
+    ```
+
+    The application will run on `http://localhost:3000`.
+
+## Folder Structure
+
+The project structure is as follows:
+
