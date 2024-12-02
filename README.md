@@ -54,7 +54,6 @@ Follow these steps to set up the project on your local machine:
 
     The application will run on `http://localhost:3000`.
 
-## Folder Structure
 
-The project structure is as follows:
+
 
