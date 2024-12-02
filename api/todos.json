@@ -1,0 +1,26 @@
+[
+  {
+    "title": "todo1",
+    "id": "7gxMgNG7rocpNJ1JBCsfL",
+    "completed": true,
+    "dueDate": "2024-12-04"
+  },
+  {
+    "title": "todo2",
+    "id": "CVIC1PC0dQ1k4q1Z2XNkT",
+    "completed": false,
+    "dueDate": "2024-12-06"
+  },
+  {
+    "title": "todo3",
+    "id": "IYEzkPMUJ2uNJybvlaeKE",
+    "completed": false,
+    "dueDate": "2024-12-01"
+  },
+  {
+    "title": "todo4",
+    "id": "2KDoRg3xIsxUzZKC6Ckpf",
+    "completed": true,
+    "dueDate": "2024-11-27"
+  }
+]
