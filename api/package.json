@@ -5,6 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node server",
+		"build": "react-scripts build",
 		"server": "nodemon server"
 	},
 	"author": "",
