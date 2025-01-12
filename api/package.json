@@ -20,6 +20,7 @@
 		"dotenv": "^8.2.0",
 		"express": "^4.19.2",
 		"nanoid": "^3.1.21",
+		"react-scripts": "^5.0.1",
 		"uuid": "^8.3.2"
 	}
 }

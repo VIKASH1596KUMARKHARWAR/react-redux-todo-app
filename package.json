@@ -1,0 +1,14 @@
+{
+  "name": "react-redux-todo-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm:start:backend\" \"npm:start:frontend\"",
+    "start:backend": "npm --prefix api start",
+    "start:frontend": "npm --prefix final start",
+    "install": "npm --prefix api install && npm --prefix final install",
+    "build": "npm --prefix final run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

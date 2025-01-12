@@ -99,6 +99,15 @@ app.use(json());
 
 // Define the path to store the todos file
 const TODOS_FILE_PATH = './todos.json';
+const path = require("path");
+
+app.use(express.static(path.join(__dirname, "build")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
+
 
 // Helper function to read todos from the file
 const readTodosFromFile = () => {
